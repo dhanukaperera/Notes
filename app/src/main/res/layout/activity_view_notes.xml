@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhanukaperera.notes.ViewNotes"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtView_title"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView_title"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtView_desc"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView_dec"
+        android:textSize="20sp"
+       />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_editNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTxt_editNote" />
+    <Button
+        android:id="@+id/btn_deleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTxt_deleteNote" />
+
+</LinearLayout>

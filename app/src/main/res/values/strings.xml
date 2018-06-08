@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_addNotes">Add Notes</string>
+    <string name="title_viewNotes">View Notes</string>
+    <string name="title_editNotes">Edit Notes</string>
+
+    <string name="btnTxt_add">Add Note</string>
+    <string name="btnTxt_newNote">New Note</string>
+    <string name="btnTxt_editNote">Edit Note</string>
+    <string name="btnTxt_deleteNote">Delete Note</string>
+    <string name="btnTxt_updateNote">Update Note</string>
+
+    <string name="txtHint_title">Enter Note Title</string>
+    <string name="txtHint_description">Enter Note Description</string>
+
+    <string name="txtView_title">Title</string>
+    <string name="txtView_desc">Description</string>
+</resources>
